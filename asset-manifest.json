@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/demon-slayer/static/css/main.2cf0234e.css",
+    "main.js": "/demon-slayer/static/js/main.b65b0055.js",
+    "static/js/787.dae4b54a.chunk.js": "/demon-slayer/static/js/787.dae4b54a.chunk.js",
+    "index.html": "/demon-slayer/index.html",
+    "main.2cf0234e.css.map": "/demon-slayer/static/css/main.2cf0234e.css.map",
+    "main.b65b0055.js.map": "/demon-slayer/static/js/main.b65b0055.js.map",
+    "787.dae4b54a.chunk.js.map": "/demon-slayer/static/js/787.dae4b54a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cf0234e.css",
+    "static/js/main.b65b0055.js"
+  ]
+}
