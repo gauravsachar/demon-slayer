@@ -1,0 +1,131 @@
+.navbar {
+    margin-bottom: 2px;
+}
+
+
+/* @keyframes mymove {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 150px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.proceed {
+    animation: mymove 3s linear infinite;
+    position: relative;
+}
+
+.screen_box {
+    background: white !important
+} */
+
+.proceedimg {
+    width: 20vh;
+    height: auto;
+}
+
+.netflix {
+    justify-content: center;
+    text-align: center;
+}
+
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 5px rgba(28, 88, 253, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 20px #f1f1f1ec;
+    }
+}
+
+.proceedimg {
+    animation: radial-pulse 1s infinite;
+    border-radius: 10px;
+}
+
+.screen_box {
+    background: white !important
+}
+
+
+/* * { */
+
+
+/* cursor: url('https://www.resizepixel.com/Image/27963vt2va/Preview/HD-wallpaper-tanjiro-kamado-anim.jpg?v=ca5a0f26-2759-4038-80d1-ac01ce036737'), auto !important; */
+
+
+/* transition: linear 2s; */
+
+
+/* margin: -20px 0 0 -20px;
+    position: fixed;
+    z-index: 99999; */
+
+
+/* } */
+
+#dslr {
+    text-shadow: -2px 2px white;
+    font-weight: bold;
+}
+
+.mugen {
+    color: red;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100px;
+    text-shadow: -2px 2px black;
+    background-image: linear-gradient(rgb(16, 77, 207), rgb(153, 255, 149));
+}
+
+.mugentrain {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100px;
+}
+
+.ifrm {
+    height: 50vh;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+
+/* 
+* {
+    cursor: url('http://www.simpleimageresizer.com/_uploads/photos/e1ea47b0/nezuko_1_5.png'), auto !important;
+} */
+
+.flipper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    object-fit: contain;
+    /* box-shadow: -2px 2px grey; */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px;
+}
+
+.float {
+    position: fixed;
+    width: 40px;
+    height: 80px;
+    top: 60px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    /* border-radius: 50px; */
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    margin-top: 22px;
+}

@@ -1,0 +1,66 @@
+.seasonImg {
+    width: 50vh;
+    height: auto;
+}
+
+.slayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.just {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+}
+
+.clsbtn {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: none;
+}
+
+.cross {
+    font-size: 5vh;
+}
+
+.gaurav {
+    animation: wiggle 2s linear infinite;
+    border-top: 10px solid yellow;
+}
+
+
+/* Keyframes */
+
+@keyframes wiggle {
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+    15% {
+        transform: rotateZ(-15deg);
+    }
+    20% {
+        transform: rotateZ(10deg);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+    }
+    30% {
+        transform: rotateZ(6deg);
+    }
+    35% {
+        transform: rotateZ(-4deg);
+    }
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+.modalClass {
+    color: black !important;
+}
